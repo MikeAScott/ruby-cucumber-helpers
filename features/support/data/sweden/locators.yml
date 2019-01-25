@@ -1,0 +1,32 @@
+CurrentPage:
+  alert:
+    box: '.notification' #'.alert.m-success'
+    title: 'h2.alert-title' #'.alert.m-success'
+    continue_button: 'a.continue-button.btn-1.m-min-width-btn' #a.btn-1'
+    close_button: 'a.alert-close' #continue-button btn-1 m-min-width-btn
+
+LandingPage:
+  page:
+    path: '/'
+    title: 'Hem är här'
+  home_item_active: 'li.m-home.active'
+  body_loaded_css: 'body.withFooter'
+
+SwedenRegistrationPage:
+  header_title: "#REGISTER_VIEW >h1"
+  title_text: "REGISTRERA"
+  join_now_button: "div.top-bar a[href='/register']"
+  view_class: '#REGISTER_VIEW'
+  confirm_password_field: 'confirm-password'
+  dont_use_pin: 'dontUsePin'
+  find_postcode_button: 'Find'
+  address_selector: 'postcodeSuggestionSelect'
+  terms_and_conditions_checkbox: 'tac'
+  alert:
+    popup: 'div.alert'
+    close: 'a.alert-close'
+  terms_and_conditions_popup: 'div.terms-popup'
+  accept_tac_button:
+    css: 'div.btn-1'
+    text: 'ACCEPT & CONTINUE'
+

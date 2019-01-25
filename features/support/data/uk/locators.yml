@@ -1,0 +1,22 @@
+CurrentPage:
+  alert:
+    box: '.alert'
+    title: 'span.alert-title'
+    content: 'div.alert-content'
+  join_now_button: 'a.btn-1.register'
+  login_link: 'a.nav-btn.btn-1'
+LandingPage:
+  page:
+    path: '/'
+    title: 'Home is here'
+  home_item_active: 'span.m-home'
+ 
+RegistrationPage:
+  header_title: "div.header-title"
+  title_text: "Registration"
+  login_link: 'a.nav-btn.btn-1'
+  join_now_button: "a.btn-1.register"
+  view_class: 'body.view-REGISTER-VIEW'
+  confirm_password_field: 'confirm-password'
+  find_postcode_button: 'Find'
+ 

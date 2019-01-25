@@ -1,0 +1,40 @@
+new_user_with_valid_details:
+  email:      'a@a.com'
+  cell:       '01234567890'
+  userName:   <%= "test#{RandomData.digits(6)}" %>
+  password:   'testing123'
+  title:      'Mr'
+  firstname:   <%= "testy#{RandomData.alphas(6)}" %>
+  lastname:   <%= "user#{RandomData.alphas(6)}" %>
+  postcode:   'NG71FT'
+  houseNum:   '1'
+  housename:  <%= "1#{RandomData.digits(5)}" %>
+  city: 'Nottingham'
+  address: 'Castle Boulevard'
+  currencycode: 'GBP'
+
+new_user:
+  template: :new_user_with_valid_details
+  userName:   <%= "test#{RandomData.digits(6)}" %>
+  creditCard:
+    cc_card_number: '4111111111111111'
+    cc_exp_month: '12'
+    cc_exp_year: '2015'
+    cv2:     '111'
+  new_password: tester1234
+
+security_conscious_user:
+  userName: testsec01
+  firstname: Pen
+  lastname: Tester
+  password: testing123
+  new_password: 789tested
+
+forgetful_user:
+  userName: testsec3
+  password: testing123
+  firstName: Ivor
+  lastname: Memory-Problem
+  userEmail: 'a@a.com'
+  emailPassword: 'sdfdsfasdf'
+  birthDate: '1990-01-01'
